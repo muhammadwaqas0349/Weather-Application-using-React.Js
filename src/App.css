@@ -1,0 +1,61 @@
+.weatherbg{
+  background-image: url("https://advertising.accuweather.com/wp-content/uploads/sites/4/2020/06/sadman-sakib-3tc2Rfa0OPA-unsplash-1440x810-1.jpg");
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.header{
+  
+  color: white;
+  font-weight: 900;
+}
+.header h1{
+  font-size: 24px;
+  font-weight: 900;
+}
+.search-div{
+  margin-top: 10px;
+  display: grid;
+  row-gap: 20px;
+}
+.search-div input{
+  text-align: center;
+  width: 200px;
+  padding: 5px;
+  border: 1px solid rgb(231, 216, 216);
+  border-radius: 10px;
+}
+.search-div button{
+  background-color: rgb(61, 61, 240);
+  color: white;
+  padding: 5px;
+  border: 1px solid rgb(231, 216, 216);
+  border-radius: 10px;
+}
+.result{
+  width: 500px;
+  height: 300px;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 20px;
+  border: 8px solid rgb(247, 247, 247);
+  box-shadow: 25px;
+
+}
+.result img{
+  margin-top: 2rem;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  
+}
+.result h5{
+  font-size: 24px;
+  font-weight: 700;
+}
+.result h6{
+  font-size: 24px;
+  font-weight: 700;
+}
